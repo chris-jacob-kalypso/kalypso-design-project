@@ -76,16 +76,34 @@ h5{
 }
 
 .circle{
-    width:250px;
+    width:2em;
     /* max width keeps the column from sizing*/
-    max-width: 250px;
-    min-width: 250px;
-    height:250px;
-    /* calc is height minus border size 2x */
-    line-height: calc(250px - 15px);
+    max-width: 2em;
+    min-width: 2em;
+    height: 2em;
+    /* Creates the circle*/
     border-radius: 50%;
-    border: white solid 15px;
+    color:white;
+    border: white solid 9px;
 }
+
+/* XS screen circles */
+@media screen and (max-width:540px){
+
+    .circle{
+        width:3.5em;
+        /* max width keeps the column from sizing*/
+        max-width: 3.5em;
+        min-width: 3.5em;
+        height: 3.5em;
+        /* Creates the circle*/
+        border-radius: 50%;
+        color:white;
+        border: white solid 12px;
+    }
+
+}
+
 
 
 
