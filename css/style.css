@@ -119,9 +119,11 @@ h5{
 }
 
 .last{
-    width:100%
+    width:102px
 }
 
 .last img{
-    width:100%
+    width:65px;
+    height:65px;
+    overflow:hidden
 }
