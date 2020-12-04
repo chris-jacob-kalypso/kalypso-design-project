@@ -11,188 +11,235 @@
 </head>
 
 <body>
-    <div class="bg-white p-0 m-0" style="position: absolute; top:30px; width:100% ; height:50px">
-    </div>
-    <div class="container-fluid ">
-        <!--Container everything on one row-->
-        <div class="row align-items-center justify-content-center ">
-            <!-- At XS logo takes full row, otherwise it changes at different screen sizes-->
-            <div class="logo col-12 col-sm-2 col-md text-center text-md-right order-sm-3 order-md-first p-0">
-                <img src="img/logo.png" alt="">
-            </div>
-
-            <!-- Same as above but for the brand name -->
-            <div class="brand col-12 col-md text-center text-md-left text-md-left order-sm-last order-md-2 mr-md-4 ">codeup design</div>
-
-            <!-- Menu is split in two, bad SEO maybe but It can reorder properly -->
-            <ul class="nav col-6 col-sm-3 justify-content-end p-0 order-sm-first order-md-3">
-                <a class="nav-link px-2 justify-content-sm-start " href=""><li>Services</li></a>
-                <a class="nav-link px-2 justify-content-sm-start " href=""><li>Work</li></a>     
-            </ul>
-
-            <ul class="nav col-6 col-sm-3 justify-content-start p-0 order-sm-3 order-md-4">
-                <a class="nav-link px-2 pl-sm-4 pl-md-2" href=""><li>Blog</li></a>
-                <a class="nav-link px-2" href=""><li>Contact</li></a>
-            </ul>   
+<div class="bg-white p-0 m-0" style="position: absolute; top:30px; width:100% ; height:50px">
+</div>
+<div class="container-fluid ">
+    <!--Container everything on one row-->
+    <div class="row align-items-center justify-content-center ">
+        <!-- At XS logo takes full row, otherwise it changes at different screen sizes-->
+        <div class="logo col-12 col-sm-2 col-md text-center text-md-right order-sm-3 order-md-first p-0">
+            <img src="img/logo.png" alt="">
         </div>
+
+        <!-- Same as above but for the brand name -->
+        <div class="brand col-12 col-md text-center text-md-left text-md-left order-sm-last order-md-2 mr-md-4 ">codeup
+            design
+        </div>
+
+        <!-- Menu is split in two, bad SEO maybe but It can reorder properly -->
+        <ul class="nav col-6 col-sm-3 justify-content-end p-0 order-sm-first order-md-3">
+            <a class="nav-link px-2 justify-content-sm-start " href="">
+                <li>Services</li>
+            </a>
+            <a class="nav-link px-2 justify-content-sm-start " href="">
+                <li>Work</li>
+            </a>
+        </ul>
+
+        <ul class="nav col-6 col-sm-3 justify-content-start p-0 order-sm-3 order-md-4">
+            <a class="nav-link px-2 pl-sm-4 pl-md-2" href="">
+                <li>Blog</li>
+            </a>
+            <a class="nav-link px-2" href="">
+                <li>Contact</li>
+            </a>
+        </ul>
+    </div>
     <!--End of menu-->
+</div>
+
+<!--Top level-->
+<div class="container">
+
+    <!--TODO: Menu-->
+
+    <!-- Title -->
+    <div class="d-flex-fluid flex-column text-center justify-content-center p-2">
+        <h2 class="p-4">Visual Design & Web Development</h2>
+        <h4 class="p-4">From Park City, Utah</h4>
     </div>
 
-    <!--Top level-->
-    <div class="container-fluid m-0 ">
+    <!-- Circles start here, stacks when XS to column-->
+    <div class="d-flex justify-content-center flex-column flex-sm-row ">
+        <!-- This sets up two rows-->
+        <div class="d-flex justify-content-center">
 
-        <!--TODO: Menu-->
+            <!-- Each Circle is centered this way-->
+            <div class="m-1 d-flex justify-content-center circle bg-red align-items-center">
+                <h6 class="mb-0">Design</h6>
+            </div>
+            <div class="m-1 d-flex justify-content-center circle bg-orange align-items-center">
+                <h6 class="mb-0">Develop</h6>
+            </div>
 
-        <!-- Title -->
-        <div class="d-flex-fluid flex-column text-center justify-content-center p-2">
-            <h2 class="p-4">Visual Design & Web Development</h2>
-            <h4 class="p-4">From Park City, Utah</h4>
         </div>
+        <!-- Second row of circles-->
+        <div class="d-flex justify-content-center">
 
-        <!-- Circles start here, stacks when XS to column-->
-        <div class="d-flex justify-content-center flex-column flex-sm-row ">
-            <!-- This sets up two rows-->
-            <div class="d-flex justify-content-center">
-
-                <!-- Each Circle is centered this way-->
-                <div class="m-1 d-flex justify-content-center circle bg-red align-items-center">
-                    <h6 class="mb-0">Design</h6>
-                </div>
-                <div class="m-1 d-flex justify-content-center circle bg-orange align-items-center">
-                    <h6 class="mb-0">Develop</h6>
-                </div>
-
+            <div class="m-1 d-flex justify-content-center circle bg-green align-items-center">
+                <h6 class="mb-0">Support</h6>
             </div>
-            <!-- Second row of circles-->
-            <div class="d-flex justify-content-center" >
-
-                <div  class="m-1 d-flex justify-content-center circle bg-green align-items-center">
-                    <h6 class="mb-0">Support</h6>
-                </div>
-                <div class="m-1 d-flex justify-content-center circle bg-blue align-items-center">
-                    <h6 class="mb-0">Host</h6>
-                </div>
-
+            <div class="m-1 d-flex justify-content-center circle bg-blue align-items-center">
+                <h6 class="mb-0">Host</h6>
             </div>
+
+        </div>
 
         <!--End of circles-->
-        </div>
-        
-        <hr class="mx-5">
-
-        <div class="row">
-
-            <!-- Start main content here-->
-            <div class="row col-12 col-lg-8">
-                <!-- Projects listed here-->
-                <div class="col-12 col-md-6 d-flex justify-content-center flex-column align-items-center p-md-4 p-lg-1" >
-
-                    <!-- Work class adds border-->
-                    <div class="work text-center">
-                        <img  src="img/apple-ipad.jpg" alt="Apple iPad">
-                    </div>
-                    <div class="container row p-3">
-                        <!-- inline styling TODO: make class -->
-                        <div class="col-5 text-left justify-content-start" style="font-size:1.2em;">
-                            Featured Project
-                        </div>
-                        <!-- flexbox to have icons align with margin applied on x-axis -->
-                        <div class="col d-flex justify-content-end align-items-center">
-                            <div class="icon d-flex justify-content-center align-items-center bg-red mx-1">D</div>
-                            <div class="icon d-flex justify-content-center align-items-center text-center bg-orange mx-1">D</div>
-                            <div class="icon d-flex justify-content-center align-items-center text-center bg-green mx-1">S</div>
-                            <div class="icon d-flex justify-content-center align-items-center text-center bg-blue mx-1">H</div>
-                        </div>
-                    </div>
-    
-                </div>
-    
-                <div class="col-12 col-md-6 d-flex justify-content-center flex-column align-items-center ">
-    
-                    <div class="work text-center">
-                        <img  src="img/macbook.jpg" alt="Apple iPad">
-                    </div>
-                    <div class="container row p-3">
-                        <div class="col-5 text-left justify-content-start" style="font-size:1.2em;">
-                            Featured Project
-                        </div>
-                        <div class="col d-flex justify-content-end align-items-center">
-                            <div class="icon d-flex justify-content-center align-items-center bg-red mx-1">D</div>
-                            <div class="icon d-flex justify-content-center align-items-center text-center bg-orange mx-1">D</div>
-                            <div class="icon d-flex justify-content-center align-items-center text-center bg-green mx-1">S</div>
-                            <div class="icon d-flex justify-content-center align-items-center text-center bg-blue mx-1">H</div>
-                        </div>
-                    </div>
-    
-                </div>
-    
-                <div class="col-12 col-md-6 d-flex justify-content-center flex-column align-items-center ">
-    
-                    <div class="work text-center">
-                        <img  src="img/man.jpg" alt="Apple iPad">
-                    </div>
-                    <div class="container row p-3">
-                        <div class="col-5 text-left justify-content-start" style="font-size:1.2em;">
-                            Featured Project
-                        </div>
-                        <div class="col d-flex justify-content-end align-items-center">
-                            <div class="icon d-flex justify-content-center align-items-center bg-red mx-1">D</div>
-                            <div class="icon d-flex justify-content-center align-items-center text-center bg-orange mx-1">D</div>
-                            <div class="icon d-flex justify-content-center align-items-center text-center bg-green mx-1">S</div>
-                            <div class="icon d-flex justify-content-center align-items-center text-center bg-blue mx-1">H</div>
-                        </div>
-                    </div>
-    
-                </div>
-    
-                <div class="col-12 col-md-6 d-flex justify-content-center flex-column align-items-center ">
-    
-                    <div class="work text-center">
-                        <img  src="img/security.jpg" alt="Apple iPad">
-                    </div>
-                    <div class="container row p-3">
-                        <div class="col-4 text-left justify-content-start" style="font-size:1.2em;">
-                            Featured Project
-                        </div>
-                        <div class="col d-flex justify-content-end align-items-center">
-                            <div class="icon d-flex justify-content-center align-items-center bg-red mx-1">D</div>
-                            <div class="icon d-flex justify-content-center align-items-center text-center bg-orange mx-1">D</div>
-                            <div class="icon d-flex justify-content-center align-items-center text-center bg-green mx-1">S</div>
-                            <div class="icon d-flex justify-content-center align-items-center text-center bg-blue mx-1">H</div>
-                        </div>
-                    </div>
-    
-                </div>
-
-            <!-- End of projects-->
-            </div>
-
-            <div class="row col-2">
-
-                <div class="row">
-    
-                    <div class="col last">
-                        <img src="img/security.jpg" alt="Apple iPad">
-                    </div>
-                    <div class="col-3">
-                        test
-                    </div>
-    
-                </div>
-
-            </div>
-            
-            
-            
-            
-
-        </div>
-
-
-
     </div>
 
+    <hr class="mx-5">
 
+    <div class="row">
+
+        <!-- Start main content here-->
+        <div class="row col-12 col-lg-8">
+            <!-- Projects listed here-->
+            <div class="col-12 col-md-6 d-flex justify-content-center flex-column align-items-center p-md-4 p-lg-1">
+
+                <!-- Work class adds border-->
+                <div class="work text-center">
+                    <img src="img/apple-ipad.jpg" alt="Apple iPad">
+                </div>
+                <div class="container row p-3">
+                    <!-- inline styling TODO: make class -->
+                    <div class="col-5 text-left justify-content-start" style="font-size:1.2em;">
+                        Featured Project
+                    </div>
+                    <!-- flexbox to have icons align with margin applied on x-axis -->
+                    <div class="col d-flex justify-content-end align-items-center">
+                        <div class="icon d-flex justify-content-center align-items-center bg-red mx-1">D</div>
+                        <div class="icon d-flex justify-content-center align-items-center text-center bg-orange mx-1">
+                            D
+                        </div>
+                        <div class="icon d-flex justify-content-center align-items-center text-center bg-green mx-1">S
+                        </div>
+                        <div class="icon d-flex justify-content-center align-items-center text-center bg-blue mx-1">H
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-12 col-md-6 d-flex justify-content-center flex-column align-items-center ">
+
+                <div class="work text-center">
+                    <img src="img/macbook.jpg" alt="Apple iPad">
+                </div>
+                <div class="container row p-3">
+                    <div class="col-5 text-left justify-content-start" style="font-size:1.2em;">
+                        Featured Project
+                    </div>
+                    <div class="col d-flex justify-content-end align-items-center">
+                        <div class="icon d-flex justify-content-center align-items-center bg-red mx-1">D</div>
+                        <div class="icon d-flex justify-content-center align-items-center text-center bg-orange mx-1">
+                            D
+                        </div>
+                        <div class="icon d-flex justify-content-center align-items-center text-center bg-green mx-1">S
+                        </div>
+                        <div class="icon d-flex justify-content-center align-items-center text-center bg-blue mx-1">H
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 d-flex justify-content-center flex-column align-items-center ">
+                <div class="work text-center">
+                    <img src="img/man.jpg" alt="Apple iPad">
+                </div>
+                <div class="container row p-3">
+                    <div class="col-5 text-left justify-content-start" style="font-size:1.2em;">
+                        Featured Project
+                    </div>
+                    <div class="col d-flex justify-content-end align-items-center">
+                        <div class="icon d-flex justify-content-center align-items-center bg-red mx-1">D</div>
+                        <div class="icon d-flex justify-content-center align-items-center text-center bg-orange mx-1">
+                            D
+                        </div>
+                        <div class="icon d-flex justify-content-center align-items-center text-center bg-green mx-1">S
+                        </div>
+                        <div class="icon d-flex justify-content-center align-items-center text-center bg-blue mx-1">H
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 d-flex justify-content-center flex-column align-items-center ">
+                <div class="work text-center">
+                    <img src="img/security.jpg" alt="Apple iPad">
+                </div>
+                <div class="container row p-3">
+                    <div class="col-4 text-left justify-content-start" style="font-size:1.2em;">
+                        Featured Project
+                    </div>
+                    <div class="col d-flex justify-content-end align-items-center">
+                        <div class="icon d-flex justify-content-center align-items-center bg-red mx-1">D</div>
+                        <div class="icon d-flex justify-content-center align-items-center text-center bg-orange mx-1">
+                            D
+                        </div>
+                        <div class="icon d-flex justify-content-center align-items-center text-center bg-green mx-1">S
+                        </div>
+                        <div class="icon d-flex justify-content-center align-items-center text-center bg-blue mx-1">H
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of projects-->
+        </div>
+
+        <div class="col-lg-4 align-items-md-center d-none d-sm-block">
+            <div class="col-12">
+                <div class="col-3 mb-4 mt-4">
+                    <h6>test</h6>
+                </div>
+                <div class="col-12">
+                    <!-- Side Story Element -->
+                    <div class="row align-items-center">
+                        <div class="col-3 last"><img src="img/mobile-phone.jpg" alt="Apple iPad"></div>
+                        <h5 class="header-admin col px-0 mt-2">The Admin Bar And Absolute Positioning</h5>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <!-- Side Story Element -->
+                    <div class="row align-items-center">
+                        <div class="col-3 last"><img src="img/head.jpg" alt="Apple iPad"></div>
+                        <h5 class="header-admin col px-0 mt-2">Nibbler Awesome Website Testing</h5>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <!-- Side Story Element -->
+                    <div class="row align-items-center">
+                        <div class="col-3 last"><img src="img/ipad.jpg" alt="Apple iPad"></div>
+                        <h5 class="header-admin col px-0 mt-2">How To Get Google To Like You</h5>
+                    </div>
+                </div>
+
+
+                <!--                <div class="col last mt-2">-->
+                <!--                    <img src="img/security.jpg" alt="Apple iPad">-->
+                <!--                </div>-->
+                <!--                <div class="col last mt-2">-->
+                <!--                    <img src="img/security.jpg" alt="Apple iPad">-->
+                <!--                </div>-->
+                <!-- Tweet Box -->
+
+                <div class="col-12">
+                    <div class="twitter-text col-md mt-3 d-none d-sm-block">
+                        <div class="d-flex flex-row">
+                            <i class="fab fa-twitter"></i>
+                            <span class="font-weight-bold">LAST TWEET</span>
+                        </div>
+                        <div class="text-left">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt
+                                ut
+                                labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
 </body>
 <!-- Javascript imports for Bootstrap and JQuery-->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
