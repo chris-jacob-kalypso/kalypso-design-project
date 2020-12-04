@@ -103,18 +103,25 @@ h5{
 }
 
 .brand{
-    font-size:1.4em
+    font-size: 2em;
 }
 
 .work img{
     border: solid #e6e6e6 20px;
     border-radius: 5px;
     width:90%;
-    margin:auto;
 }
 
 .icon{
     width:18px;
     height:18px;
     border-radius:50%;
+}
+
+.last{
+    width:100%
+}
+
+.last img{
+    width:100%
 }
