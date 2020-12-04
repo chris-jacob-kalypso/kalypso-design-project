@@ -9,6 +9,19 @@ body{
     background:#f0f0f0;
 }
 
+/* Restore HR tag in bootstrap*/
+hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+    border-style: solid none;
+    border-width: 1px 0;
+    margin: 18px 0;
+  }
+
 /* Changes all headings to Anton font*/
 h1,h2,h3,h4,h5,h6{
     font-family: 'Anton', sans-serif;
@@ -18,7 +31,6 @@ h1,h2,h3,h4,h5,h6{
 h1{
     font-size:64px
 }
-
 h2{
     font-size:48px
 }
@@ -83,6 +95,13 @@ h5{
     /* Creates the circle*/
     border-radius: 50%;
     color:white;
-    border: white solid 6px;
+    border: white solid 5px;
 }
 
+.logo img{
+    width:105px;
+}
+
+.brand{
+    font-size:1.4em
+}
